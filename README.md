@@ -189,7 +189,6 @@ From `eval.py`:
 
 ## Notes / Caveats
 
-- Boolean CLI args use `type=bool`. Pass explicit values like `True` / `False`.
 - Sequence length is effectively fixed to 100 in several places.
 - `train_with_contrastive.py` uses `args.dir_name + "ABPDB_7/"` and does an internal `9:1` random split for train/test.
 - `args.dir_name + "ABPDB_3/"` is  used only for evaluation during training.
