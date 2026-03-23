@@ -1,0 +1,11 @@
+numpy>=1.23
+torch>=2.0
+matplotlib>=3.7
+scikit-learn>=1.2
+transformers>=4.30
+sentencepiece>=0.1.99
+dgl>=1.1
+torchmetrics>=1.2
+fair-esm>=2.0
+mdtraj>=1.9
+biopython>=1.81
