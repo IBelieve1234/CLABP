@@ -1,6 +1,6 @@
 # CLABP
 
-This repository contains a AMPs activity prediction pipeline based on a multimodal model (`ABP_Text_Picture_Model`) with contrastive learning.
+This repository contains a AMPs activity prediction pipeline based on "CLABP: A Contrastive Learning Framework Integrating Protein Language Models and Structural Information for Antibacterial Peptide Prediction".
 
 ## Overview
 
