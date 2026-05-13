@@ -146,7 +146,7 @@ Resume from checkpoint:
 
 ```bash
 python train_with_contrastive.py \
-  --checkpoint ./checkpoints/epoch_10_use_lm_True_full.pt \
+  --checkpoint ./checkpoints/epoch_use_lm_True_full.pt \
   --load_optimizer True
 ```
 
@@ -164,7 +164,7 @@ Example:
 
 ```bash
 python eval.py \
-  --model_ck_filename epoch_73_use_lm_True.pt \
+  --model_ck_filename epoch_use_lm_True.pt \
   --dir_name ./data/ABPDB/ABPDB_3/ \
   --use_lm True \
   --lm_model prot_t5_xl_uniref50
